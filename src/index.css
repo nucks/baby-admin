@@ -1,0 +1,11 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.timeline-item {
+    padding-bottom: 40px !important;
+}
