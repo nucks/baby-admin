@@ -3,7 +3,8 @@ import { Select, message, Form, Input, Button, Divider } from "antd";
 import "./index.css";
 
 const App = () => {
-    const baseUrl = process.env.BASE_URL;
+    const baseUrl = process.env.REACT_APP_BASE_URL;
+
     const [textsButton, setTextsButton] = useState(true);
 
     const updateCountdown = async (value) => {
