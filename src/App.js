@@ -3,7 +3,7 @@ import { Select, message, Form, Input, Button, Divider } from "antd";
 import "./index.css";
 
 const App = () => {
-    const baseUrl = "https://frozen-dawn-71816.herokuapp.com";
+    const baseUrl = process.env.BASE_URL;
     const [textsButton, setTextsButton] = useState(true);
 
     const updateCountdown = async (value) => {
